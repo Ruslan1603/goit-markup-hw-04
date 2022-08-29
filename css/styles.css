@@ -354,6 +354,9 @@ width: 1200px;
     margin-bottom: 50px;
 
 }
+.section-work {
+    padding-bottom: 94px;
+}
 .port-title{
         margin-bottom: 4px;
         font-weight: 700;
@@ -402,8 +405,8 @@ width: 1200px;
     padding-top: 20px;
     padding-right: 24px;
     padding-left: 24px;
-    border-top: 0px;
-     border: 1px solid #eeeeee;
+    border: 1px solid #eeeeee;
+    border-top: none;
 }
 footer{
     background-color: #2F303A;
