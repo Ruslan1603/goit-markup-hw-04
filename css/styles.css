@@ -482,6 +482,17 @@ footer{
 .footer {
 padding: 60px 0px;
 }
+.footer-soc-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
 .link-map{
         font-style:normal;
         font-weight: 400;
