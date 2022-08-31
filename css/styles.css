@@ -524,3 +524,21 @@ padding: 60px 0px;
 .address {
     padding: 0;
 }
+.baton-icon {
+    width: 170px;
+    height: 92px;
+    background-color: #FFFFFF;
+}
+.clients-li {
+    display: inline-block;
+    margin-right: 22px;
+   
+}
+.baton {
+    
+    margin: 0;
+    padding: 0;
+}
+ .clients .container {
+    padding: 0;
+ }
