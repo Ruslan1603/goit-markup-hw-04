@@ -491,7 +491,24 @@ padding: 60px 0px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
 
+}
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.footer-soc {
+    width: 206px;
+    height: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    
+    padding: auto;
+    margin: auto;
 }
 .link-map{
         font-style:normal;
