@@ -126,7 +126,8 @@ width: 1200px;
 }
 
 .auth-nav .link {
-    display: block;
+    display: flex;
+    align-items: center;
     color: var(--p-text-color);
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -146,7 +147,7 @@ width: 1200px;
 }
 
 .contact-icon {
-    fill: #757575;
+    fill: currentColor;
     margin-right: 10px;
     
 }
@@ -194,8 +195,7 @@ width: 1200px;
 }
 .hero {
     max-width: 1600px;
-    height: 600px;
-   
+    height: 600px; 
   background-image:linear-gradient(to right,
 rgba(47, 48, 58, 0.4),
 rgba(47, 48, 58, 0.4) ),
@@ -271,7 +271,10 @@ rgba(47, 48, 58, 0.4) ),
 .port-btn:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-}
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+
 
 /* bgc color section */
 .port-bgc.section-dev {
@@ -366,7 +369,7 @@ rgba(47, 48, 58, 0.4) ),
     text-align: center;
     color: var(--title-text-color);
     margin-bottom: 12px;
-    padding-top: 30px;
+   
 }
 /* text h2 h3 p */
 .section-hum {
@@ -404,6 +407,7 @@ rgba(47, 48, 58, 0.4) ),
     padding-bottom: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+     padding-top: 30px;
 }
 
 .human-li {
@@ -473,18 +477,23 @@ rgba(47, 48, 58, 0.4) ),
 
 .foto .card {
     margin: 0;
-    
     padding-left: 0px;
 }
+.foto-item {
+    display: block;
+    text-decoration: none;
+    
+}
 
+.foto-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .title-text {
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 24px;
     padding-left: 24px;
-    border: 1px solid #eeeeee;
-    border-top: none;
-    
+    border: 1px solid #EEEEEE;
 }
 .clients {
     padding-top: 94px;
@@ -611,6 +620,7 @@ padding: 60px 0px;
 .clients-icon {
     width: 106px;
     height: 60px;
+    fill: currentColor;
     background-color: #FFFFFF;
 }
 .clients-icon:hover,
@@ -637,12 +647,10 @@ padding: 60px 0px;
 }
 .clients-link:hover,
 .clients-link:focus {
-    fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    border-color: 1px solid var(--accent-color);
 }
-.clients-icon {
-    fill: #AFB1B8;
-}
+
  .clients .container {
     padding: 0;
  }
